@@ -24,15 +24,15 @@ This project adopts a "scenario-driven + technology-focused" approach to help me
 - **Tutorial videos**: 10–15 minute operation demos for each scenario (TODO).
 - **Application feedback**: User experiences and improvement suggestions from doctors, medical students, medical researchers, hospital administrators, patients, and other users.
 
-## 📖 Project Navigation Index
+## 📖 Project Navigation
 
 | Chapter                                                      | Key Content                                                  | Status |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
-| [Chapter 1: AI-Enabled Healthcare: Application Overview and Model Differentiation](https://www.doubao.com/chat/chap1.md) | Introduces AI’s healthcare applications (e.g., image analysis, intelligent consultation), compares general/medical/specialty LLMs, and builds a knowledge framework. | ✅      |
-| [Chapter 2: Medical Versatility of General LLMs: Prompt Engineering Practice](https://www.doubao.com/chat/chap2.md) | Uses real scenarios (e.g., orthopedic surgery, diabetes management) to explain prompt engineering for guiding general LLMs to support clinical work. | ✅      |
-| [Chapter 3: General Medical LLMs: Functions and Practice of All-Round Medical Assistants](https://www.doubao.com/chat/chap3.md) | Analyzes general medical LLMs (e.g., HuatuoGPT), their roles (chronic disease management, triage), core technologies (dual-track training), and hospital cases. | ✅      |
-| [Chapter 4: Specialty Medical LLMs: Intelligent Assistance for Specialty Diagnosis and Treatment](https://www.doubao.com/chat/chap4.md) | Focuses on specialty LLMs (e.g., XrayGPT, OncoGPT), their radiology/oncology applications, and key technologies (vision-language alignment). | ✅      |
-| [Final Chapter: Clinical Implementation of Medical LLMs: Cases, Challenges, and the Future](https://www.doubao.com/chat/chap5.md) | Shares domestic hospital cases, breaks down LLM clinical processes, analyzes issues (interpretability, reliability), and looks ahead to future directions. | ✅      |
+| [Chapter 1: AI-Enabled Healthcare: Application Overview and Model Differentiation](./docs/chap1.md) | Introduces AI’s healthcare applications (e.g., image analysis, intelligent consultation), compares general/medical/specialty LLMs, and builds a knowledge framework. | ✅      |
+| [Chapter 2: Medical Versatility of General LLMs: Prompt Engineering Practice](./docs/chap2.md) | Uses real scenarios (e.g., orthopedic surgery, diabetes management) to explain prompt engineering for guiding general LLMs to support clinical work. | ✅      |
+| [Chapter 3: General Medical LLMs: Functions and Practice of All-Round Medical Assistants](./docs/chap3.md) | Analyzes general medical LLMs (e.g., HuatuoGPT), their roles (chronic disease management, triage), core technologies (dual-track training), and hospital cases. | ✅      |
+| [Chapter 4: Specialty Medical LLMs: Intelligent Assistance for Specialty Diagnosis and Treatment](./docs/chap4.md) | Focuses on specialty LLMs (e.g., XrayGPT, OncoGPT), their radiology/oncology applications, and key technologies (vision-language alignment). | ✅      |
+| [Final Chapter: Clinical Implementation of Medical LLMs: Cases, Challenges, and the Future](./docs/chap5.md) | Shares domestic hospital cases, breaks down LLM clinical processes, analyzes issues (interpretability, reliability), and looks ahead to future directions. | ✅      |
 
 ## 🚀 Learning Approach
 
