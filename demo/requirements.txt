@@ -1,0 +1,22 @@
+# core
+streamlit
+langchain
+langchain_ollama
+langchain_community
+langchain_openai
+
+# document processing
+pypdf
+python-docx
+unstructured[md]
+markdown
+python-multipart
+
+# vector db
+chromadb
+
+# ui
+streamlit-chat
+
+# misc
+requests

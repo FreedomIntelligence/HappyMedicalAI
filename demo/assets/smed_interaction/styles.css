@@ -1,0 +1,136 @@
+/* v2/styles.css 修改内容 */
+.wrapper {
+    position: relative;
+    width: 800px;
+    height: 1000px;
+}
+
+/* 将背景色改为纯白色并确保深色模式下也正常显示 */
+body {
+    display: flex;
+    justify-content: center;
+    padding: 2em 1em;
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0;
+    color-scheme: light;
+}
+
+.human-body {
+    width: 100%;
+    height: 100%;
+}
+
+.organ-point {
+    stroke: white;
+    stroke-width: 1px; /* 缩小描边宽度 */
+    cursor: pointer;
+    transition: r 0.2s ease;
+}
+
+/* 莫兰迪色系着色 */
+.organ-point.category-1 { fill: #B0A8A0; } /* 莫兰迪灰 */
+.organ-point.category-2 { fill: #A8B0A0; } /* 莫兰迪绿 */
+.organ-point.category-3 { fill: #A0A8B0; } /* 莫兰迪蓝 */
+.organ-point.category-4 { fill: #B0A0A8; } /* 莫兰迪紫 */
+.organ-point.category-5 { fill: #A8A0B0; } /* 莫兰迪紫 */
+.organ-point.category-6 { fill: #A0B0A8; } /* 莫兰迪青 */
+
+.organ-point:hover {
+    r: 8; /* 缩小高亮时的点半径 */
+}
+
+.voronoi {
+    fill: transparent;
+}
+
+.tooltip a {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+.tooltip {
+    opacity: 0;
+    position: absolute;
+    padding: 0.4em 0.6em;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    font-size: 0.75em; /* 减小字体大小 */
+    z-index: 10;
+    transition: all 0.2s ease-out;
+    pointer-events: auto;
+    max-width: 750px; /* 限制最大宽度 */
+    /* 限制最大高度 */
+    /* max-height: 300px; */
+    /* 添加滚动条以防内容过多 */
+    /* overflow-x: auto; */
+    line-height: 1.3; /* 减小行高 */
+}
+
+.tooltip:before {
+    display: none;
+}
+
+.tooltip.left:after,
+.tooltip.right:after {
+    content: '';
+    position: absolute;
+    top: var(--tooltip-arrow-top, 50%);
+    width: 12px;
+    height: 12px;
+    background: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transform: translate(0, -50%) rotate(45deg);
+    z-index: 10;
+}
+
+.tooltip.left:after {
+    right: 0;
+    transform: translate(50%, -50%) rotate(45deg);
+}
+
+.tooltip.right:after {
+    left: 0;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.tooltip-organ {
+    margin-bottom: 0.3em;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.tooltip-models ul {
+    margin: 0;
+    padding-left: 0.5em;
+    color: #34495e;
+}
+
+.tooltip-models li {
+    margin: 0.1em 0;
+}
+
+.models-list, .model-items, .subcategories, .subcategory-models {
+    margin: 0.1em 0; /* 减少嵌套列表间距 */
+    padding-left: 0.8em; /* 调整嵌套列表缩进 */
+}
+
+.model-category, .subcategory {
+    margin: 0.2em 0; /* 减少类别间距 */
+}
+
+.highlight-dot {
+    stroke: white;
+    stroke-width: 1px; /* 缩小高亮框粗细 */
+    pointer-events: none;
+}
+
+/* 高亮点使用更鲜明的颜色 */
+.highlight-dot {
+    fill: #c0392b;
+    stroke: white;
+    stroke-width: 1px;
+    pointer-events: none;
+}

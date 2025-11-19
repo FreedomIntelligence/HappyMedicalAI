@@ -1,0 +1,46 @@
+archive/
+config.yaml
+cache/
+*.lnk
+*.bin
+*.docx
+tests/
+chroma_db/
+.vscode
+.DS_Store
+
+# 虚拟环境
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虚拟环境目录
+venv/
+env/
+.venv/
+
+# 日志文件
+*.log
+*.out
+
+# 数据库文件
+*.sqlite3
+
+# 配置文件（如果你不希望提交配置文件到版本库）
+config.ini
+secrets.json
+
+# 构建和打包相关
+dist/
+build/
+*.egg-info/
+
+# 编辑器和 IDE 相关
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook 相关
+.ipynb_checkpoints/

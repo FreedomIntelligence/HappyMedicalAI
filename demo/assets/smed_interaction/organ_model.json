@@ -1,0 +1,831 @@
+{
+  "organs": [
+    {
+      "id": "kidney_left",
+      "name": "肾脏",
+      "english": "Kidney",
+      "x": 360,
+      "y": 430,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "糖尿病",
+          "english": "Diabetes",
+          "models": [            {
+              "name": "DeepDR-LLM",
+              "publication": "Nature Communication",
+              "links": {
+                "demo": "",
+                "paper": "https://www.nature.com/articles/s41591-024-03139-8",
+                "github": "https://github.com/DeepPros/DeepDR-LLM"
+              }
+            }, "Diabetica", "Diabeti0", "PIRsuader"]
+        },
+        {
+          "type": "专科相关系统",
+          "name": "肾脏病学相关",
+          "english": "Nephrology",
+          "models": ["KidneyTalk-open"]
+        },
+        {
+          "type": "疾病",
+          "name": "肾结石",
+          "english": "Kidney Stone",
+          "models": ["KS-GPT"]
+        },
+        {
+          "type": "疾病",
+          "name": "急性肾损伤",
+          "english": "Acute Kidney Injury",
+          "models": ["AKIBoards"]
+        },
+        {
+          "type": "疾病",
+          "name": "慢性肾脏病",
+          "english": "Chronic Kidney Disease",
+          "models": ["CKD-AI"]
+        },
+        {
+          "type": "疾病",
+          "name": "肾移植",
+          "english": "Kidney Transplantation",
+          "models": ["exKidneyBERT"]
+        }
+      ]
+    },
+    {
+      "id": "heart",
+      "name": "心脏",
+      "english": "Heart",
+      "x": 410,
+      "y": 250,
+      "models": [
+        {
+          "type": "专科",
+          "name": "心脏病学",
+          "english": "Cardiology",
+          "models": ["心脏疾病预测模型", "CardioMind", "CVDLLM", "ECG-FM", "Zodiac", "MoRE", "HuBERT-ECG"]
+        },
+        {
+          "type": "疾病",
+          "name": "心律失常",
+          "english": "Arrhythmia",
+          "models": ["ECGBERT", "ESI"]
+        },
+        {
+          "type": "疾病",
+          "name": "冠状动脉异常起源",
+          "english": "Anomalous Aortic Origin of Coronary Arteries",
+          "models": ["LLM-TA"]
+        },
+        {
+          "type": "疾病",
+          "name": "先天性心脏病",
+          "english": "Congenital Heart Disease",
+          "models": ["PedsheartVersa"]
+        }
+      ]
+    },
+    {
+      "id": "liver",
+      "name": "肝脏",
+      "english": "Liver",
+      "x": 370,
+      "y": 320,
+      "models": [
+        {
+          "type": "专科",
+          "name": "肝病学",
+          "english": "Hepatology",
+          "models": ["LiVersa"]
+        },
+        {
+          "type": "疾病",
+          "name": "肝细胞癌",
+          "english": "Hepatocellular Carcinoma",
+          "models": ["ChatExosome"]
+        }
+      ]
+    },
+    {
+      "id": "brain",
+      "name": "大脑",
+      "english": "Brain",
+      "x": 380,
+      "y": 70,
+      "models": [
+        {
+          "type": "专科",
+          "name": "神经病学",
+          "english": "Neurology",
+          "subcategories": [
+            {
+              "name": "基础神经学模型",
+              "english": "Basic Neurology Models",
+              "models": ["Neura", "ExKG-LLM"]
+            },
+            {
+              "name": "神经退行性疾病研究",
+              "english": "Neurodegenerative Disease Research",
+              "models": ["NeuroDegenerateNet", "BrainAgingAI"]
+            }
+          ]
+        },
+        {
+          "type": "专科",
+          "name": "神经外科学",
+          "english": "Neurosurgery",
+          "subcategories": [
+            {
+              "name": "手术规划系统",
+              "english": "Surgical Planning System",
+              "models": ["AtlasGPT"]
+            },
+            {
+              "name": "术后恢复评估",
+              "english": "Postoperative Recovery Assessment",
+              "models": ["LLM4DEU", "NeuroRecovery-AI"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brain",
+      "name": "海马体",
+      "english": "Brain",
+      "x": 400,
+      "y": 55,
+      "models": [
+        {
+          "type": "专科",
+          "name": "精神病学",
+          "english": "Psychiatry",
+          "models": ["Psy-LLM", "ChatPsychiatrist", "MentaLLaMA", "MindWatch", "WundtGPT", "CBT-LLM"]
+        },
+        {
+          "type": "疾病",
+          "name": "认知障碍疾病",
+          "english": "Cognitive Impairment",
+          "subcategories": [
+            {
+              "name": "阿尔茨海默病",
+              "english": "Alzheimer’s Disease",
+              "models": ["ADAgent", "AD-GPT", "DECT", "DALK", "AD-AutoGPT", "LlamaCoT-AD"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brain2",
+      "name": "额叶、顶叶、颞叶、枕叶、丘脑",
+      "english": "Brain",
+      "x": 400,
+      "y": 75,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "神经电生理疾病",
+          "english": "Neuroelectrophysiological Diseases",
+          "subcategories": [
+            {
+              "name": "癫痫",
+              "english": "Epilepsy",
+              "models": ["EpilepsyLLM", "SeizureDetect", "EEG-Analyzer", "SemioLLM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brain3",
+      "name": "前庭",
+      "english": "Brain",
+      "x": 380,
+      "y": 95,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "平衡障碍疾病",
+          "english": "Balance Disorder Diseases",
+          "subcategories": [
+            {
+              "name": "慢性眩晕",
+              "english": "Chronic Vertigo",
+              "models": ["DizzyInsight", "VestibularAI"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brain4",
+      "name": "脑血管",
+      "english": "Brain",
+      "x": 400,
+      "y": 95,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "脑血管疾病",
+          "english": "Cerebrovascular Disease",
+          "subcategories": [
+            {
+              "name": "脑卒中",
+              "english": "Stroke",
+              "models": ["MBBo-RPSLD", "StrokePredict", "NeuroSave"]
+            }
+          ]
+        },
+        {
+          "type": "诊断工具",
+          "name": "神经影像分析",
+          "english": "Neuroimaging Analysis",
+          "models": ["BrainScan-AI", "NeuroImageNet", "MRI-Interpreter"]
+        }
+      ]
+    },
+    {
+      "id": "brain5",
+      "name": "中脑黑质致密部",
+      "english": "Brain",
+      "x": 420,
+      "y": 85,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "运动障碍疾病",
+          "english": "Movement Disorders",
+          "subcategories": [
+            {
+              "name": "帕金森病",
+              "english": "Parkinson’s Disease",
+              "models": ["AutoHealth", "ParkinsonAI", "PD-Insight"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brain6",
+      "name": "中脑黑质致密部",
+      "english": "Brain",
+      "x": 420,
+      "y": 70,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "抑郁症",
+          "english": "Depression",
+          "models": ["VS-LLM", "InterMind", "DepRoBERTa", "PKG-LLM"]
+        },
+        {
+          "type": "疾病",
+          "name": "孤独症",
+          "english": "Autism",
+          "models": ["ChatASD", "SocialRecNet"]
+        }
+      ]
+    },
+    {
+      "id": "lung",
+      "name": "肺",
+      "english": "Lung",
+      "x": 350,
+      "y": 250,
+      "models": [
+        {
+          "type": "专科",
+          "name": "呼吸病学",
+          "english": "Pulmonology",
+          "models": ["RespLLM", "LUNG-GPT", "OPERA"]
+        },
+        {
+          "type": "疾病",
+          "name": "新型冠状病毒肺炎",
+          "english": "COVID-19",
+          "models": ["CovidLLM"]
+        },
+        {
+          "type": "疾病",
+          "name": "哮喘",
+          "english": "Asthma",
+          "models": ["AsthmaBot"]
+        },
+        {
+          "type": "疾病",
+          "name": "肺炎",
+          "english": "Pneumonia",
+          "models": ["PneumoNet", "PneuStack-GPT"]
+        },
+        {
+          "type": "疾病",
+          "name": "慢性阻塞性肺疾病",
+          "english": "Chronic Obstructive Pulmonary Disease",
+          "models": ["Copd-ChatGLM", "SpiroLLM"]
+        },
+        {
+          "type": "疾病",
+          "name": "肺癌",
+          "english": "Lung Cancer",
+          "models": ["TCMLCM", "EXACT-Net"]
+        },
+        {
+          "type": "疾病",
+          "name": "结核病",
+          "english": "Tuberculosis",
+          "models": ["TB-care", "TB-VLM"]
+        }
+      ]
+    },
+    {
+      "id": "eye1",
+      "name": "眼",
+      "english": "Eye",
+      "x": 385,
+      "y": 120,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "年龄相关性黄斑变性",
+          "english": "Age-related Macular Degeneration",
+          "models": ["RetinaVLM", "DR-GPT"]
+        },
+        {
+          "type": "疾病",
+          "name": "脉络膜和视网膜疾病",
+          "english": "Choroidal and Retinal Diseases",
+          "models": ["RetinalGPT", "ICGA-GPT"]
+        }
+      ]
+    },
+    {
+      "id": "eye2",
+      "name": "眼",
+      "english": "Eye",
+      "x": 415,
+      "y": 120,
+      "models": [
+        {
+          "type": "专科",
+          "name": "眼科学",
+          "english": "Ophthalmology",
+          "models": ["OphGLM", "Ophtha-LLaMA2", "EYE-Llama", "LEME", "EyeGPT", "EyeCLIP", "VisionUnite", "EyeFound", "FFA-GPT"]
+        },
+        {
+          "type": "疾病",
+          "name": "糖尿病视网膜病变",
+          "english": "Diabetic Retinopathy",
+          "models": ["DR-GPT"]
+        },
+        {
+          "type": "疾病",
+          "name": "青光眼",
+          "english": "Glaucoma",
+          "models": ["Xiaoqing"]
+        }
+      ]
+    },
+    {
+      "id": "ear",
+      "name": "耳",
+      "english": "Ear",
+      "x": 400,
+      "y": 175,
+      "models": [
+        {
+          "type": "专科",
+          "name": "耳鼻喉科学",
+          "english": "Otolaryngology",
+          "models": ["ENTAgents"]
+        },
+        {
+          "type": "疾病",
+          "name": "前庭神经鞘瘤",
+          "english": "Vestibular Schwannoma",
+          "models": ["neuroGPT-X"]
+        },
+        {
+          "type": "疾病",
+          "name": "阻塞性睡眠呼吸暂停",
+          "english": "Obstructive Sleep Apnea",
+          "models": [
+            {
+              "name": "OSAer",
+              "links": {
+                "demo": "",
+                "paper": "https://www.researchgate.net/publication/388436360_OSAer_A_Specialized_LLM_Framework_for_Pediatric_Obstructive_Sleep_Apnea_Management",
+                "github": ""
+              }
+            },
+            "ECGBERT"]
+        }
+      ]
+    },
+    {
+      "id": "skin",
+      "name": "皮肤",
+      "english": "Skin",
+      "x": 240,
+      "y": 500,
+      "models": [
+        {
+          "type": "专科",
+          "name": "皮肤病学",
+          "english": "Dermatology",
+          "models": [
+            {
+              "name": "SkinGPT-4",
+              "publication": "Nature Communication",
+              "links": {
+                "demo": "",
+                "paper": "https://www.nature.com/articles/s41467-024-50043-3",
+                "github": "https://github.com/JoshuaChou2018/SkinGPT-4"
+              }
+            },
+            {
+              "name": "SkinGEN",
+              "links": {
+                "demo": "",
+                "paper": "https://dl.acm.org/doi/full/10.1145/3708359.3712098",
+                "github": ""
+              }
+            },
+            {
+              "name": "OpenBioLLm-Derm",
+              "links": {
+                "demo": "https://huggingface.co/brucewayne0459/OpenBioLLm-Derm",
+                "paper": "",
+                "github": ""
+              }
+            },
+            {
+              "name": "SkinSavvy2",
+              "links": {
+                "paper": "https://www.mdpi.com/2079-9292/14/5/969",
+                "github": ""
+              }
+            },
+            {
+              "name": "MM-Skin",
+              "links": {
+                "paper": "https://arxiv.org/abs/2505.06152",
+                "github": "https://github.com/ZwQ803/MM-Skin"
+              }
+            }
+          ]
+        },
+        {
+          "type": "疾病",
+          "name": "猴痘病毒感染",
+          "english": "Mpox Virus",
+          "models": [            {
+              "name": "MpoxVLM",
+              "links": {
+                "demo": "",
+                "paper": "https://arxiv.org/pdf/2411.10888",
+                "github": ""
+              }
+            }]
+        }
+      ]
+    },
+    {
+      "id": "bone",
+      "name": "骨骼",
+      "english": "Bone",
+      "x": 450,
+      "y": 480,
+      "models": [
+        {
+          "type": "专科",
+          "name": "骨科学",
+          "english": "Orthopedics",
+          "models": ["OrthoAI", "OrthoDoc"]
+        },
+        {
+          "type": "疾病",
+          "name": "类风湿关节炎",
+          "english": "Rheumatoid Arthritis",
+          "models": ["Hengqin-RA-V1"]
+        },
+        {
+          "type": "疾病",
+          "name": "骨关节炎",
+          "english": "Osteoarthritis",
+          "models": ["DocOA"]
+        },
+        {
+          "type": "疾病",
+          "name": "脊柱关节炎",
+          "english": "Spondyloarthritis",
+          "models": ["SpineGPT", "SpA-RobotGPT"]
+        },
+        {
+          "type": "疾病",
+          "name": "慢性下腰痛",
+          "english": "Chronic Low Back Pain",
+          "models": ["CLBP-ClinicGPT"]
+        },
+        {
+          "type": "疾病",
+          "name": "肋骨骨折",
+          "english": "Rib Fracture",
+          "models": ["OrthoInsight"]
+        }
+      ]
+    },
+    {
+      "id": "breast",
+      "name": "乳腺",
+      "english": "Breast",
+      "x": 370,
+      "y": 280,
+      "models": [
+        {
+          "type": "专科",
+          "name": "乳腺医学",
+          "english": "Breast Medicine",
+          "models": ["BURExtract-Llama"]
+        },
+        {
+          "type": "疾病",
+          "name": "乳腺癌",
+          "english": "Breast Cancer",
+          "models": ["LLaVA-MultiMammo", "Breast-Crag"]
+        }
+      ]
+    },
+    {
+      "id": "colon",
+      "name": "结肠",
+      "english": "Colon",
+      "x": 400,
+      "y": 400,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "结直肠癌",
+          "english": "Colorectal Cancer",
+          "models": ["ColonGPT"]
+        }
+      ]
+    },
+    {
+      "id": "mouth",
+      "name": "口腔",
+      "english": "Mouth",
+      "x": 400,
+      "y": 150,
+      "models": [
+        {
+          "type": "专科",
+          "name": "口腔医学",
+          "english": "Stomatology",
+          "models": ["Dental Loop Chatbot", "CephGPT-4"]
+        },
+        {
+          "type": "疾病",
+          "name": "牙周病",
+          "english": "Periodontal Diseases",
+          "models": ["PerioGPT"]
+        }
+      ]
+    },
+    {
+      "id": "thyroid",
+      "name": "甲状腺",
+      "english": "Thyroid",
+      "x": 380,
+      "y": 160,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "甲状腺癌",
+          "english": "Thyroid Cancer",
+          "models": ["Thyro-GenAI"]
+        },
+        {
+          "type": "疾病",
+          "name": "甲状腺结节",
+          "english": "Thyroid Nodules",
+          "models": ["EndoGPT"]
+        }
+      ]
+    },
+    {
+      "id": "pancreas",
+      "name": "胰腺",
+      "english": "Pancreas",
+      "x": 450,
+      "y": 350,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "胰腺癌",
+          "english": "Pancreatic Cancer",
+          "models": ["MiniGPT-Pancreas"]
+        }
+      ]
+    },
+    {
+      "id": "prostate",
+      "name": "前列腺",
+      "english": "Prostate",
+      "x": 400,
+      "y": 490,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "前列腺癌",
+          "english": "Prostate Cancer",
+          "models": ["RadOnc-GPT"]
+        }
+      ]
+    },
+    {
+      "id": "cervix",
+      "name": "宫颈",
+      "english": "Cervix",
+      "x": 400,
+      "y": 470,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "宫颈癌",
+          "english": "Cervical Cancer",
+          "models": ["CerviCAT"]
+        }
+      ]
+    },
+    {
+      "id": "traditional_chinese_medicine",
+      "name": "中医学相关",
+      "english": "Traditional Chinese Medicine",
+      "x": 540,
+      "y": 480,
+      "models": [
+        {
+          "type": "专科",
+          "name": "中医学",
+          "english": "Traditional Chinese Medicine",
+          "models": ["LingdanLLM", "TCMLLM", "TCMChat", "BianCang", "TCM-GPT", "TCM-KLLaMA", "MedChatZH", "Qibo", "Zhongjing", "PresRecST", "CPMI-ChatGLM", "TCM-FTP", "MCM"]
+        }
+      ]
+    },
+    {
+      "id": "radiology",
+      "name": "放射学相关",
+      "english": "Radiology",
+      "x": 410,
+      "y": 320,
+      "models": [
+        {
+          "type": "专科",
+          "name": "放射学",
+          "english": "Radiology",
+          "models": ["Radiology-Llama2", "CohortGPT", "RoentGen", "Radiology-GPT", "ChatRadio-Valuer", "XrayGPT", "RaDialog", "R2GenGPT", "CXR-CLIP", "CheXagent"]
+        }
+      ]
+    },
+    {
+      "id": "pediatrics",
+      "name": "儿科学相关",
+      "english": "Pediatrics",
+      "x": 415,
+      "y": 260,
+      "models": [
+        {
+          "type": "专科",
+          "name": "儿科学",
+          "english": "Pediatrics",
+          "models": ["PediatricsGPT", "P2Med-MLLM", "MedicalGLM", "PedsheartVersa"]
+        },
+        {
+          "type": "疾病",
+          "name": "围手术期脓毒症",
+          "english": "Perioperative Sepsis",
+          "models": ["PerioSepsis-GPT"]
+        }
+      ]
+    },
+    {
+      "id": "oncology",
+      "name": "肿瘤学相关",
+      "english": "Oncology",
+      "x": 450,
+      "y": 280,
+      "models": [
+        {
+          "type": "专科",
+          "name": "肿瘤学",
+          "english": "Oncology",
+          "models": ["OncoGPT", "SEETrials", "RadOnc-GPT", "MUSK", "LLMSeg"]
+        },
+        {
+          "type": "专科",
+          "name": "癌症",
+          "english": "Cancer",
+          "models": ["CancerLLM"]
+        },
+        {
+          "type": "疾病",
+          "name": "罕见妇科肿瘤",
+          "english": "Rare Gynecological Tumors",
+          "models": ["RGT Digital Twins"]
+        }
+      ]
+    },
+    {
+      "id": "hiv_related",
+      "name": "HIV相关",
+      "english": "HIV-related",
+      "x": 490,
+      "y": 280,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "人类免疫缺陷病毒感染",
+          "english": "HIV",
+          "models": ["Llama-3.1-HIV"]
+        }
+      ]
+    },
+    {
+      "id": "gastroenterology",
+      "name": "胃肠病学相关",
+      "english": "Gastroenterology",
+      "x": 400,
+      "y": 360,
+      "models": [
+        {
+          "type": "专科",
+          "name": "胃肠病学",
+          "english": "Gastroenterology",
+          "models": ["Gastrobot"]
+        }
+      ]
+    },
+    {
+      "id": "anesthesiology",
+      "name": "麻醉学相关",
+      "english": "Anesthesiology",
+      "x": 345,
+      "y": 450,
+      "models": [
+        {
+          "type": "专科",
+          "name": "麻醉学",
+          "english": "Anesthesiology",
+          "models": ["Hypnos"]
+        }
+      ]
+    },
+    {
+      "id": "pathology",
+      "name": "病理学相关",
+      "english": "Pathology",
+      "x": 520,
+      "y": 350,
+      "models": [
+        {
+          "type": "专科",
+          "name": "病理学",
+          "english": "Pathology",
+          "models": ["PathGPT", "Pathology-LLaVA", "CONCH"]
+        }
+      ]
+    },
+    {
+      "id": "pregnancy",
+      "name": "妊娠相关",
+      "english": "Pregnancy",
+      "x": 450,
+      "y": 430,
+      "models": [
+        {
+          "type": "疾病",
+          "name": "妊娠期糖尿病",
+          "english": "Gestational Diabetes Mellitus",
+          "models": ["GDM-GPT"]
+        }
+      ]
+    },
+    {
+      "id": "rare_disease",
+      "name": "罕见病相关",
+      "english": "Rare Disease",
+      "x": 435,
+      "y": 240,
+      "models": [
+        {
+          "type": "专科",
+          "name": "罕见病",
+          "english": "Rare Disease",
+          "models": ["RareDxGPT", "RareAgents", "RDmaster", "RDguru", "Zebra-Llama"]
+        }
+      ]
+    }
+  ]
+}
