@@ -1,0 +1,43 @@
+# OS generated files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Logs
+*.log
+*.out
+
+# Database
+*.sqlite3
+
+# Configuration files
+config.ini
+secrets.json
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Custom folders
+archive/
+test/
+zip/
